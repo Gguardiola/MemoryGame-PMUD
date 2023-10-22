@@ -1,0 +1,52 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#mainContainer > div > div > img{
+    border: 5px solid black;
+    padding: 2px;
+    max-width: 100%;
+    height: auto;
+}
+#mainContainer {
+    width: 100%;  
+}
+#mainContainer > div{
+    display: flex;
+    justify-content: center;
+}
+#mainContainer > div > div{
+    margin: 0 5px;
+}
+.card {
+    position: inline;
+}
+.tryCounter {
+    display: inline-block;
+}
+#gameInfo{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#tryContainer{
+    display: inline-block;
+}
+#diffContainer{
+    display:inline-block;
+}
+.timer{
+    display: inline-block;
+}
+.startButton {
+    color: #fff;
+    font-weight: bolder;
+    border: 3px solid cyan;
+    border-radius: 20px;
+    z-index: 100;
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #0074d9;
+}

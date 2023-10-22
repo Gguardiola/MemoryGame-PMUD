@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="static/static_jquery.js"></script>
+    <title>Memory Game - Gabriel Guardiola</title>
+</head>
+<body align="center">
+    <h1>Memory Game GOTY edition</h1>
+    <div id="gameInfo">
+        <div id="tryContainer">Timer: <p class="timer">0:00:00</p> - Trys: <p class="tryCounter">0</p></div>
+        <br>
+        <div id="diffContainer">
+            Difficulty:
+            <select name="difficulty" id="boardDiff">
+                <option value="8">Easy</option>
+                <option value="12" selected>Medium</option>
+                <option value="16">Hard</option>
+            </select>
+        </div>
+        <button class="restartButton">Restart</button>
+    </div>
+    <div id="mainContainer">
+        <div id="container0">
+        </div>
+        <div id="container1">
+        </div>
+        <div id="container2"> 
+        </div>
+    </div>
+    <button class="startButton">START!</button>
+    
+</body>
+</html>
